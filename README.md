@@ -46,3 +46,5 @@ You can change the formatting in the returned NSString value in line #10 of the 
 return [NSString stringWithFormat:@"%02dh : %02dm : %02ds", hours, minutes, seconds]; 
 // Result displays as 00h : 00m : 05s
 ```
+
+I found this timecode conversion code example on <a href="http://stackoverflow.com/questions/1739383/convert-seconds-integer-to-hhmm-iphone">StackOverflow</a> by <a href="http://stackoverflow.com/users/108955/rohit-agarwal">Rohit Agarwal</a>, and made it into a reusable class for implementing into multiple projects.
